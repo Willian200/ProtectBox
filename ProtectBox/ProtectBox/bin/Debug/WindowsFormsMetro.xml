@@ -1,0 +1,1038 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+WindowsFormsMetro
+</name>
+</assembly>
+<members>
+<member name="T:My.Resources.Resources">
+<summary>
+  Clase de recurso fuertemente tipado, para buscar cadenas traducidas, etc.
+</summary>
+</member>
+<member name="P:My.Resources.Resources.ResourceManager">
+<summary>
+  Devuelve la instancia de ResourceManager almacenada en caché utilizada por esta clase.
+</summary>
+</member>
+<member name="P:My.Resources.Resources.Culture">
+<summary>
+  Reemplaza la propiedad CurrentUICulture del subproceso actual para todas las
+  búsquedas de recursos mediante esta clase de recurso fuertemente tipado.
+</summary>
+</member>
+<member name="P:My.Resources.Resources.close_d">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:My.Resources.Resources.close_l">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:My.Resources.Resources.maximize_d">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:My.Resources.Resources.maximize_l">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:My.Resources.Resources.minimize_d">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:My.Resources.Resources.minimize_l">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:My.Resources.Resources.password_d">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:My.Resources.Resources.restore_d">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:My.Resources.Resources.restore_l">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:My.Resources.Resources.search_d">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:My.Resources.Resources.wfm_icon">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Icon similar a (Icono).
+</summary>
+</member>
+<member name="T:System.Windows.Forms.Metro.Renderer">
+ <summary>
+ A ToolstripManager rendering class with advanced control features
+ </summary>
+</member>
+<member name="M:System.Windows.Forms.Metro.Renderer.#ctor">
+ <summary>
+ Creates a new Renderer class for modifications
+ </summary>
+</member>
+<member name="P:System.Windows.Forms.Metro.Renderer.Menustrip">
+ <summary>
+ Gets the manager to edit and change the appearance of the Toolstrip
+ </summary>
+</member>
+<member name="P:System.Windows.Forms.Metro.Renderer.Toolstrip">
+ <summary>
+ Gets the manager to edit and change the appearance of the Toolstrip
+ </summary>
+</member>
+<member name="P:System.Windows.Forms.Metro.Renderer.ToolstripButton">
+ <summary>
+ Gets the manager to edit and change the appearance of Toolstrip buttons
+ </summary>
+</member>
+<member name="P:System.Windows.Forms.Metro.Renderer.ToolstripControls">
+ <summary>
+ Gets the manager to edit and change the appearance of other Toolstrip controls
+ </summary>
+</member>
+<member name="P:System.Windows.Forms.Metro.Renderer.Panels">
+ <summary>
+ Gets the manager to edit and change the appearance of the Panels
+ </summary>
+</member>
+<member name="P:System.Windows.Forms.Metro.Renderer.SplitButton">
+ <summary>
+ Gets the manager to edit and change the appearance of the Toolstrip split buttons
+ </summary>
+</member>
+<member name="P:System.Windows.Forms.Metro.Renderer.StatusBar">
+ <summary>
+ Gets the manager to edit and change the appearance of the Status-bar
+ </summary>
+</member>
+<member name="P:System.Windows.Forms.Metro.Renderer.SmoothText">
+ <summary>
+ Gets or sets whether to smooth the font text on all controls
+ </summary>
+</member>
+<member name="P:System.Windows.Forms.Metro.Renderer.OverrideColor">
+ <summary>
+ Gets or sets the color of the text if the AlterColor is set to true
+ </summary>
+</member>
+<member name="P:System.Windows.Forms.Metro.Renderer.AlterColor">
+ <summary>
+ Gets or sets whether to override the font-color on all controls
+ </summary>
+</member>
+<member name="M:System.Windows.Forms.Metro.Renderer.CreateDrawingPath(System.Drawing.Rectangle,System.Single)">
+ <summary>
+ Creates a GraphicsPath that appreciates an area where things can be drawn
+ </summary>
+ <param name="Area">The rectangular area which will serve as the base</param>
+ <param name="Curve">The curve amount of the corners</param>
+ <returns></returns>
+</member>
+<member name="M:System.Windows.Forms.Metro.Renderer.CreateTrianglePath(System.Drawing.Rectangle,System.Int32,System.Windows.Forms.ArrowDirection)">
+ <summary>
+ Creates a triangle based on the size and bounds sectors
+ </summary>
+ <param name="Bounds">The area which the triangle is confined to</param>
+ <param name="Size">The size of the triangle</param>
+ <param name="Direction">The direction which the triangle is pointing</param>
+ <returns></returns>
+</member>
+<member name="M:System.Windows.Forms.Metro.Renderer.GetButtonBackColor(System.Windows.Forms.ToolStripButton,System.Windows.Forms.Metro.ButtonType)">
+ <summary>
+ Gets a color array based on the state of a normal button
+ </summary>
+ <param name="Item">The button to check the state of</param>
+ <returns></returns>
+</member>
+<member name="M:System.Windows.Forms.Metro.Renderer.GetButtonBackColor(System.Windows.Forms.ToolStripSplitButton,System.Windows.Forms.Metro.ButtonType)">
+ <summary>
+ Gets a color array based on the state of a split-button
+ </summary>
+ <param name="Item">The button to check the state of</param>
+ <returns></returns>
+</member>
+<member name="M:System.Windows.Forms.Metro.Renderer.GetButtonBackColor(System.Windows.Forms.ToolStripMenuItem,System.Windows.Forms.Metro.ButtonType)">
+ <summary>
+ Gets a color array based on the state of a menu-item
+ </summary>
+ <param name="Item">The button to check the state of</param>
+ <returns></returns>
+</member>
+<member name="M:System.Windows.Forms.Metro.Renderer.GetButtonBackColor(System.Windows.Forms.ToolStripDropDownButton,System.Windows.Forms.Metro.ButtonType)">
+ <summary>
+ Gets a color array based on the state of a drop-down button
+ </summary>
+ <param name="Item">The button to check the state of</param>
+ <returns></returns>
+</member>
+<member name="M:System.Windows.Forms.Metro.Renderer.GetBlend(System.Windows.Forms.ToolStripItem,System.Windows.Forms.Metro.ButtonType)">
+ <summary>
+ Gets a blending property for a specified type of Toolstrip item
+ </summary>
+ <param name="TSItem">The Toolstrip item</param>
+ <param name="Type">The type of item this is</param>
+ <returns></returns>
+</member>
+<member name="M:System.Windows.Forms.Metro.Renderer.PaintBackground(System.Drawing.Graphics,System.Drawing.Rectangle,System.Drawing.Brush)">
+ <summary>
+ Fills a specified boundary with color
+ </summary>
+ <param name="Link">The Graphics object to draw onto</param>
+ <param name="Boundary">The boundaries to draw the color</param>
+ <param name="Brush">The brush to fill the color</param>
+</member>
+<member name="M:System.Windows.Forms.Metro.Renderer.PaintBackground(System.Drawing.Graphics,System.Drawing.Rectangle,System.Drawing.Color,System.Drawing.Color)">
+ <summary>
+ Fills a specified boundary with a gradient with specified colors
+ </summary>
+ <param name="Link">The Graphics object to draw onto</param>
+ <param name="Boundary">The boundaries to draw the color</param>
+ <param name="Top">The color of the gradient at the top</param>
+ <param name="Bottom">The color of the gradient at the bottom</param>
+</member>
+<member name="M:System.Windows.Forms.Metro.Renderer.PaintBackground(System.Drawing.Graphics,System.Drawing.Rectangle,System.Drawing.Color,System.Drawing.Color,System.Single)">
+ <summary>
+ Fills a specified boundary with a gradient with specified colors at a given angle
+ </summary>
+ <param name="Link">The Graphics object to draw onto</param>
+ <param name="Boundary">The boundaries to draw the color</param>
+ <param name="Top">The color of the gradient at the top</param>
+ <param name="Bottom">The color of the gradient at the bottom</param>
+ <param name="Angle">The angle which the gradient is drawn (null defaults to 90f)</param>
+</member>
+<member name="M:System.Windows.Forms.Metro.Renderer.PaintBackground(System.Drawing.Graphics,System.Drawing.Rectangle,System.Drawing.Color,System.Drawing.Color,System.Single,System.Drawing.Drawing2D.Blend)">
+ <summary>
+ Fills a specified boundary with a gradient with specified colors at a given angle and with blending properties
+ </summary>
+ <param name="Link">The Graphics object to draw onto</param>
+ <param name="Boundary">The boundaries to draw the color</param>
+ <param name="Top">The color of the gradient at the top</param>
+ <param name="Bottom">The color of the gradient at the bottom</param>
+ <param name="Angle">The angle which the gradient is drawn (null defaults to 90f)</param>
+ <param name="Blend">The blending options to draw the gradient</param>
+</member>
+<member name="M:System.Windows.Forms.Metro.Renderer.PaintBorder(System.Drawing.Graphics,System.Drawing.Drawing2D.GraphicsPath,System.Drawing.Brush)">
+ <summary>
+ Draws a set path with a defined brush
+ </summary>
+ <param name="Link">The Graphics object to draw onto</param>
+ <param name="Path">The path to draw along</param>
+ <param name="Brush">The brush to fill the color</param>
+</member>
+<member name="M:System.Windows.Forms.Metro.Renderer.PaintBorder(System.Drawing.Graphics,System.Drawing.Drawing2D.GraphicsPath,System.Drawing.Rectangle,System.Drawing.Color,System.Drawing.Color)">
+ <summary>
+ Draws a set path with specified colors
+ </summary>
+ <param name="Link">The Graphics object to draw onto</param>
+ <param name="Path">The path to draw along</param>
+ <param name="Area">The area of span the border gradient covers</param>
+ <param name="Top">The color of the gradient at the top</param>
+ <param name="Bottom">The color of the gradient at the bottom</param>
+</member>
+<member name="M:System.Windows.Forms.Metro.Renderer.PaintBorder(System.Drawing.Graphics,System.Drawing.Drawing2D.GraphicsPath,System.Drawing.Rectangle,System.Drawing.Color,System.Drawing.Color,System.Single)">
+ <summary>
+ Draws a set path with specified colors at a given angle
+ </summary>
+ <param name="Link">The Graphics object to draw onto</param>
+ <param name="Path">The path to draw along</param>
+ <param name="Area">The area of span the border gradient covers</param>
+ <param name="Top">The color of the gradient at the top</param>
+ <param name="Bottom">The color of the gradient at the bottom</param>
+ <param name="Angle">The angle which the gradient is drawn (null defaults to 90f)</param>
+</member>
+<member name="M:System.Windows.Forms.Metro.Renderer.PaintBorder(System.Drawing.Graphics,System.Drawing.Drawing2D.GraphicsPath,System.Drawing.Rectangle,System.Drawing.Color,System.Drawing.Color,System.Single,System.Drawing.Drawing2D.Blend)">
+ <summary>
+ Draws a set path with specified colors at a given angle with blending properties
+ </summary>
+ <param name="Link">The Graphics object to draw onto</param>
+ <param name="Path">The path to draw along</param>
+ <param name="Top">The color of the gradient at the top</param>
+ <param name="Bottom">The color of the gradient at the bottom</param>
+ <param name="Angle">The angle which the gradient is drawn (null defaults to 90f)</param>
+ <param name="Blend">The blending options to draw the gradient</param>
+</member>
+<member name="M:System.Windows.Forms.Metro.Renderer.IDrawToolstripButton(System.Windows.Forms.ToolStripButton,System.Drawing.Graphics,System.Windows.Forms.ToolStrip)">
+ <summary>
+ Draws a Toolstrip button
+ </summary>
+ <param name="Item">The Toolstrip button</param>
+ <param name="Link">The Graphics object to handle</param>
+ <param name="Parent">The parent Toolstrip</param>
+</member>
+<member name="M:System.Windows.Forms.Metro.Renderer.IDrawDropDownButton(System.Windows.Forms.ToolStripDropDownButton,System.Drawing.Graphics,System.Windows.Forms.ToolStrip)">
+ <summary>
+ Draws a Toolstrip button
+ </summary>
+ <param name="Item">The Toolstrip button</param>
+ <param name="Link">The Graphics object to handle</param>
+ <param name="Parent">The parent Toolstrip</param>
+</member>
+<member name="M:System.Windows.Forms.Metro.Renderer.IDrawToolstripBackground(System.Windows.Forms.ToolStrip,System.Drawing.Graphics,System.Drawing.Rectangle)">
+ <summary>
+ Draws the Toolstrip background
+ </summary>
+ <param name="Item">The Toolstrip being drawn</param>
+ <param name="Link">The Graphics object to handle</param>
+ <param name="Bounds">The affected bounds</param>
+</member>
+<member name="M:System.Windows.Forms.Metro.Renderer.IDrawToolstripSplitButton(System.Windows.Forms.ToolStripSplitButton,System.Drawing.Graphics,System.Windows.Forms.ToolStrip)">
+ <summary>
+ Draws a Toolstrip split-button
+ </summary>
+ <param name="Item">The Toolstrip split-button</param>
+ <param name="Link">The Graphics object to handle</param>
+ <param name="Parent">The parent Toolstrip</param>
+</member>
+<member name="M:System.Windows.Forms.Metro.Renderer.IDrawStatusbarBackground(System.Windows.Forms.Metro.StatusStrip,System.Drawing.Graphics,System.Drawing.Rectangle)">
+ <summary>
+ Draws the Statusbar background
+ </summary>
+ <param name="Item">The Statusbar being drawn</param>
+ <param name="Link">The Graphics object to handle</param>
+ <param name="Bounds">The affected bounds</param>
+</member>
+<member name="M:System.Windows.Forms.Metro.Renderer.IDrawMenustripItem(System.Windows.Forms.ToolStripMenuItem,System.Drawing.Graphics,System.Windows.Forms.ToolStrip)">
+ <summary>
+ Draws a Menustrip item
+ </summary>
+ <param name="Item">The Menustrip item</param>
+ <param name="Link">The Graphics object to handle</param>
+ <param name="Parent">The parent Toolstrip</param>
+</member>
+<member name="M:System.Windows.Forms.Metro.Renderer.OnRenderButtonBackground(System.Windows.Forms.ToolStripItemRenderEventArgs)">
+ <summary>
+ Covers the button background rendering
+ </summary>
+ <param name="e"></param>
+</member>
+<member name="M:System.Windows.Forms.Metro.Renderer.Apply">
+ <summary>
+ Applies any and all changes made to the Renderer
+ </summary>
+</member>
+<member name="T:System.Windows.Forms.Metro.IToolstrip">
+ <summary>
+ A class designed to be used in the Renderer master control to customize the look and feel of the base Toolstrip
+ </summary>
+</member>
+<member name="M:System.Windows.Forms.Metro.IToolstrip.#ctor">
+ <summary>
+ Creates a new IToolstrip class for customization
+ </summary>
+</member>
+<member name="M:System.Windows.Forms.Metro.IToolstrip.#ctor(System.Windows.Forms.Metro.IToolstrip)">
+ <summary>
+ Creates a new IToolstrip class for customization
+ </summary>
+ <param name="Import">The IToolstrip to import the settings from</param>
+</member>
+<member name="M:System.Windows.Forms.Metro.IToolstrip.Dispose">
+ <summary>
+ Disposes of the IToolstrip class and clears all resources related to it
+ </summary>
+</member>
+<member name="P:System.Windows.Forms.Metro.IToolstrip.BackgroundTop">
+ <summary>
+ Gets or sets the color of the Toolstrip background gradient from the top
+ </summary>
+</member>
+<member name="P:System.Windows.Forms.Metro.IToolstrip.BackgroundBottom">
+ <summary>
+ Gets or sets the color of the Toolstrip background gradient from the bottom
+ </summary>
+</member>
+<member name="P:System.Windows.Forms.Metro.IToolstrip.BackgroundBlend">
+ <summary>
+ Gets or sets the blending that will occur when rendering the Toolstrip background
+ If set to null, the Toolstrip will simply draw the gradient
+ </summary>
+</member>
+<member name="P:System.Windows.Forms.Metro.IToolstrip.BackgroundAngle">
+ <summary>
+ Gets or sets the angle which the Toolstrip background will be drawn
+ </summary>
+</member>
+<member name="P:System.Windows.Forms.Metro.IToolstrip.BorderTop">
+ <summary>
+ Gets or sets the color of the Toolstrip border gradient from the top
+ </summary>
+</member>
+<member name="P:System.Windows.Forms.Metro.IToolstrip.BorderBottom">
+ <summary>
+ Gets or sets the color of the Toolstrip border gradient from the bottom
+ </summary>
+</member>
+<member name="P:System.Windows.Forms.Metro.IToolstrip.BorderBlend">
+ <summary>
+ Gets or sets the blending that will occur when rendering the Toolstrip border
+ If set to null, the Toolstrip will simply draw the border
+ </summary>
+</member>
+<member name="P:System.Windows.Forms.Metro.IToolstrip.BorderAngle">
+ <summary>
+ Gets or sets the angle which the Toolstrip border will be drawn
+ </summary>
+</member>
+<member name="P:System.Windows.Forms.Metro.IToolstrip.Curve">
+ <summary>
+ Gets or sets the curve of the border of the Toolstrip
+ </summary>
+</member>
+<member name="M:System.Windows.Forms.Metro.IToolstrip.Apply(System.Windows.Forms.Metro.IToolstrip)">
+ <summary>
+ Imports the settings from a previous or pre-defined IToolstrip and applies it to the current
+ </summary>
+ <param name="Import">The IToolstrip to import the settings from</param>
+</member>
+<member name="M:System.Windows.Forms.Metro.IToolstrip.DefaultBlending">
+ <summary>
+ Sets the blending for both border and background to their defaults
+ </summary>
+</member>
+<member name="M:System.Windows.Forms.Metro.IToolstripControls.#ctor">
+ <summary>
+ Creates a new IToolstripControls class for customization
+ </summary>
+</member>
+<member name="M:System.Windows.Forms.Metro.IToolstripControls.Dispose">
+ <summary>
+ Disposes of the IToolstripControls class and clears all resources related to it
+ </summary>
+</member>
+<member name="P:System.Windows.Forms.Metro.IToolstripControls.SeperatorDark">
+ <summary>
+ Gets or sets the color of the Toolstrip seperator on the dark side
+ </summary>
+</member>
+<member name="P:System.Windows.Forms.Metro.IToolstripControls.SeperatorLight">
+ <summary>
+ Gets or sets the color of the Toolstrip seperator on the light side
+ </summary>
+</member>
+<member name="P:System.Windows.Forms.Metro.IToolstripControls.SeperatorHeight">
+ <summary>
+ Gets or sets the height of the Toolstrip seperator control
+ </summary>
+</member>
+<member name="P:System.Windows.Forms.Metro.IToolstripControls.GripTop">
+ <summary>
+ Gets or sets the color of the grip dots/line at the top
+ </summary>
+</member>
+<member name="P:System.Windows.Forms.Metro.IToolstripControls.GripShadow">
+ <summary>
+ Gets or sets the color of the grip shadow
+ </summary>
+</member>
+<member name="P:System.Windows.Forms.Metro.IToolstripControls.GripStyle">
+ <summary>
+ Gets or sets in what mode the grip will be drawn
+ </summary>
+</member>
+<member name="P:System.Windows.Forms.Metro.IToolstripControls.GripDistance">
+ <summary>
+ Gets or sets the distance, in pixels, between each grip dot
+ </summary>
+</member>
+<member name="P:System.Windows.Forms.Metro.IToolstripControls.GripSize">
+ <summary>
+ Gets or sets the size of the dots or lines for the grip
+ </summary>
+</member>
+<member name="M:System.Windows.Forms.Metro.IToolstripControls.Apply(System.Windows.Forms.Metro.IToolstripControls)">
+ <summary>
+ Imports the settings from a previous or pre-defined IToolstripControls and applies it to the current
+ </summary>
+ <param name="Import">The IToolstripControls to import the settings from</param>
+</member>
+<member name="M:System.Windows.Forms.Metro.IButton.#ctor">
+ <summary>
+ Creates a new IButton class for customization
+ </summary>
+</member>
+<member name="M:System.Windows.Forms.Metro.IButton.#ctor(System.Windows.Forms.Metro.IButton)">
+ <summary>
+ Creates a new IButton class for customization
+ </summary>
+ <param name="Import">The IButton to import the settings from</param>
+</member>
+<member name="M:System.Windows.Forms.Metro.IButton.Dispose">
+ <summary>
+ Disposes of the IButton class and clears all resources related to it
+ </summary>
+</member>
+<member name="P:System.Windows.Forms.Metro.IButton.HoverBackgroundTop">
+ <summary>
+ Gets or sets the color of the Button background at the top, when hovered over
+ </summary>
+</member>
+<member name="P:System.Windows.Forms.Metro.IButton.HoverBackgroundBottom">
+ <summary>
+ Gets or sets the color of the Button background at the bottom, when hovered over
+ </summary>
+</member>
+<member name="P:System.Windows.Forms.Metro.IButton.ClickBackgroundTop">
+ <summary>
+ Gets or sets the color of the Button background at the top, when clicked
+ </summary>
+</member>
+<member name="P:System.Windows.Forms.Metro.IButton.ClickBackgroundBottom">
+ <summary>
+ Gets or sets the color of the Button background at the bottom, when clicked
+ </summary>
+</member>
+<member name="P:System.Windows.Forms.Metro.IButton.BackgroundBlend">
+ <summary>
+ Gets or sets the blending that will occur when rendering the Button background
+ If set to null, the Button will simply draw the gradient
+ </summary>
+</member>
+<member name="P:System.Windows.Forms.Metro.IButton.BackgroundAngle">
+ <summary>
+ Gets or sets the angle which the Button background will be drawn
+ </summary>
+</member>
+<member name="P:System.Windows.Forms.Metro.IButton.BorderTop">
+ <summary>
+ Gets or sets the color of the Button border gradient from the top
+ </summary>
+</member>
+<member name="P:System.Windows.Forms.Metro.IButton.BorderBottom">
+ <summary>
+ Gets or sets the color of the Button border gradient from the bottom
+ </summary>
+</member>
+<member name="P:System.Windows.Forms.Metro.IButton.BorderBlend">
+ <summary>
+ Gets or sets the blending that will occur when rendering the Button border
+ If set to null, the Button will simply draw the border
+ </summary>
+</member>
+<member name="P:System.Windows.Forms.Metro.IButton.BorderAngle">
+ <summary>
+ Gets or sets the angle which the Button border will be drawn
+ </summary>
+</member>
+<member name="P:System.Windows.Forms.Metro.IButton.InnerBorder">
+ <summary>
+ Gets or sets the color of the inside border
+ </summary>
+</member>
+<member name="P:System.Windows.Forms.Metro.IButton.BlendOptions">
+ <summary>
+ Gets or sets when to apply the rendering ("Normal" does not apply here)
+ </summary>
+</member>
+<member name="P:System.Windows.Forms.Metro.IButton.Curve">
+ <summary>
+ Gets or sets the curve of the border of the Button
+ </summary>
+</member>
+<member name="M:System.Windows.Forms.Metro.IButton.Apply(System.Windows.Forms.Metro.IButton)">
+ <summary>
+ Imports the settings from a previous or pre-defined IButton and applies it to the current
+ </summary>
+ <param name="Import">The IButton to import the settings from</param>
+</member>
+<member name="M:System.Windows.Forms.Metro.IButton.DefaultBlending">
+ <summary>
+ Sets the blending for both border and background to their defaults
+ </summary>
+</member>
+<member name="M:System.Windows.Forms.Metro.IDropDownButton.#ctor">
+ <summary>
+ Creates a new IButton class for customization
+ </summary>
+</member>
+<member name="M:System.Windows.Forms.Metro.IDropDownButton.#ctor(System.Windows.Forms.Metro.IDropDownButton)">
+ <summary>
+ Creates a new IButton class for customization
+ </summary>
+ <param name="Import">The IButton to import the settings from</param>
+</member>
+<member name="M:System.Windows.Forms.Metro.IDropDownButton.Dispose">
+ <summary>
+ Disposes of the IButton class and clears all resources related to it
+ </summary>
+</member>
+<member name="P:System.Windows.Forms.Metro.IDropDownButton.HoverBackgroundTop">
+ <summary>
+ Gets or sets the color of the Button background at the top, when hovered over
+ </summary>
+</member>
+<member name="P:System.Windows.Forms.Metro.IDropDownButton.HoverBackgroundBottom">
+ <summary>
+ Gets or sets the color of the Button background at the bottom, when hovered over
+ </summary>
+</member>
+<member name="P:System.Windows.Forms.Metro.IDropDownButton.BackgroundBlend">
+ <summary>
+ Gets or sets the blending that will occur when rendering the Button background
+ If set to null, the Button will simply draw the gradient
+ </summary>
+</member>
+<member name="P:System.Windows.Forms.Metro.IDropDownButton.BackgroundAngle">
+ <summary>
+ Gets or sets the angle which the Button background will be drawn
+ </summary>
+</member>
+<member name="P:System.Windows.Forms.Metro.IDropDownButton.BorderTop">
+ <summary>
+ Gets or sets the color of the Button border gradient from the top
+ </summary>
+</member>
+<member name="P:System.Windows.Forms.Metro.IDropDownButton.BorderBottom">
+ <summary>
+ Gets or sets the color of the Button border gradient from the bottom
+ </summary>
+</member>
+<member name="P:System.Windows.Forms.Metro.IDropDownButton.BorderBlend">
+ <summary>
+ Gets or sets the blending that will occur when rendering the Button border
+ If set to null, the Button will simply draw the border
+ </summary>
+</member>
+<member name="P:System.Windows.Forms.Metro.IDropDownButton.BorderAngle">
+ <summary>
+ Gets or sets the angle which the Button border will be drawn
+ </summary>
+</member>
+<member name="P:System.Windows.Forms.Metro.IDropDownButton.InnerBorder">
+ <summary>
+ Gets or sets the color of the inside border
+ </summary>
+</member>
+<member name="P:System.Windows.Forms.Metro.IDropDownButton.BlendOptions">
+ <summary>
+ Gets or sets when to apply the rendering ("Normal" and "Click" do not apply here)
+ </summary>
+</member>
+<member name="P:System.Windows.Forms.Metro.IDropDownButton.Curve">
+ <summary>
+ Gets or sets the curve of the border of the Button
+ </summary>
+</member>
+<member name="M:System.Windows.Forms.Metro.IDropDownButton.Apply(System.Windows.Forms.Metro.IDropDownButton)">
+ <summary>
+ Imports the settings from a previous or pre-defined IDropDownButton and applies it to the current
+ </summary>
+ <param name="Import">The IDropDownButton to import the settings from</param>
+</member>
+<member name="M:System.Windows.Forms.Metro.IDropDownButton.DefaultBlending">
+ <summary>
+ Sets the blending for both border and background to their defaults
+ </summary>
+</member>
+<member name="M:System.Windows.Forms.Metro.ISplitButton.#ctor">
+ <summary>
+ Creates a new ISplitButton class for customization
+ </summary>
+</member>
+<member name="M:System.Windows.Forms.Metro.ISplitButton.Dispose">
+ <summary>
+ Disposes of the ISplitButton class and clears all resources related to it
+ </summary>
+</member>
+<member name="P:System.Windows.Forms.Metro.ISplitButton.HoverBackgroundTop">
+ <summary>
+ Gets or sets the color of the Button background at the top, when hovered over
+ </summary>
+</member>
+<member name="P:System.Windows.Forms.Metro.ISplitButton.HoverBackgroundBottom">
+ <summary>
+ Gets or sets the color of the Button background at the bottom, when hovered over
+ </summary>
+</member>
+<member name="P:System.Windows.Forms.Metro.ISplitButton.ClickBackgroundTop">
+ <summary>
+ Gets or sets the color of the Button background at the top, when clicked
+ </summary>
+</member>
+<member name="P:System.Windows.Forms.Metro.ISplitButton.ClickBackgroundBottom">
+ <summary>
+ Gets or sets the color of the Button background at the bottom, when clicked
+ </summary>
+</member>
+<member name="P:System.Windows.Forms.Metro.ISplitButton.BackgroundBlend">
+ <summary>
+ Gets or sets the blending that will occur when rendering the Button background
+ If set to null, the Button will simply draw the gradient
+ </summary>
+</member>
+<member name="P:System.Windows.Forms.Metro.ISplitButton.BackgroundAngle">
+ <summary>
+ Gets or sets the angle which the Button background will be drawn
+ </summary>
+</member>
+<member name="P:System.Windows.Forms.Metro.ISplitButton.BorderTop">
+ <summary>
+ Gets or sets the color of the Button border gradient from the top
+ </summary>
+</member>
+<member name="P:System.Windows.Forms.Metro.ISplitButton.BorderBottom">
+ <summary>
+ Gets or sets the color of the Button border gradient from the bottom
+ </summary>
+</member>
+<member name="P:System.Windows.Forms.Metro.ISplitButton.BorderBlend">
+ <summary>
+ Gets or sets the blending that will occur when rendering the Button border
+ If set to null, the Button will simply draw the border
+ </summary>
+</member>
+<member name="P:System.Windows.Forms.Metro.ISplitButton.BorderAngle">
+ <summary>
+ Gets or sets the angle which the Button border will be drawn
+ </summary>
+</member>
+<member name="P:System.Windows.Forms.Metro.ISplitButton.InnerBorder">
+ <summary>
+ Gets or sets the color of the inside border
+ </summary>
+</member>
+<member name="P:System.Windows.Forms.Metro.ISplitButton.BlendOptions">
+ <summary>
+ Gets or sets when to apply the rendering ("Normal" does not apply here)
+ </summary>
+</member>
+<member name="P:System.Windows.Forms.Metro.ISplitButton.Curve">
+ <summary>
+ Gets or sets the curve of the border of the Button
+ </summary>
+</member>
+<member name="P:System.Windows.Forms.Metro.ISplitButton.ArrowDisplay">
+ <summary>
+ Gets or sets when to display the drop-down arrow
+ </summary>
+</member>
+<member name="P:System.Windows.Forms.Metro.ISplitButton.ArrowColor">
+ <summary>
+ Gets or sets the color of the drop-down arrow
+ </summary>
+</member>
+<member name="M:System.Windows.Forms.Metro.ISplitButton.Apply(System.Windows.Forms.Metro.ISplitButton)">
+ <summary>
+ Imports the settings from a previous or pre-defined ISplitButton and applies it to the current
+ </summary>
+ <param name="Import">The ISplitButton to import the settings from</param>
+</member>
+<member name="M:System.Windows.Forms.Metro.ISplitButton.DefaultBlending">
+ <summary>
+ Sets the blending for both border and background to their defaults
+ </summary>
+</member>
+<member name="M:System.Windows.Forms.Metro.IPanel.#ctor">
+ <summary>
+ Creates a new IPanel class for customization
+ </summary>
+</member>
+<member name="M:System.Windows.Forms.Metro.IPanel.Dispose">
+ <summary>
+ Disposes of the IButton class and clears all resources related to it
+ </summary>
+</member>
+<member name="P:System.Windows.Forms.Metro.IPanel.ContentPanelTop">
+ <summary>
+ Gets or sets the color of the gradient at the top of the content panel
+ </summary>
+</member>
+<member name="P:System.Windows.Forms.Metro.IPanel.ContentPanelBottom">
+ <summary>
+ Gets or sets the color of the gradient at the bottom of the content panel
+ </summary>
+</member>
+<member name="P:System.Windows.Forms.Metro.IPanel.PanelInheritance">
+ <summary>
+ Gets or sets whether each panel inherits the shading from the content panel
+ </summary>
+</member>
+<member name="P:System.Windows.Forms.Metro.IPanel.BackgroundAngle">
+ <summary>
+ Gets or sets the angle which the background gradient is drawn
+ </summary>
+</member>
+<member name="P:System.Windows.Forms.Metro.IPanel.BackgroundBlend">
+ <summary>
+ Gets or sets the blend of the background
+ </summary>
+</member>
+<member name="P:System.Windows.Forms.Metro.IPanel.Mode">
+ <summary>
+ Gets or sets a mode to render the background in
+ </summary>
+</member>
+<member name="M:System.Windows.Forms.Metro.IStatusBar.#ctor">
+ <summary>
+ Creates a new IStatusBar class for customization
+ </summary>
+</member>
+<member name="M:System.Windows.Forms.Metro.IStatusBar.Dispose">
+ <summary>
+ Disposes of the IButton class and clears all resources related to it
+ </summary>
+</member>
+<member name="P:System.Windows.Forms.Metro.IStatusBar.BackgroundTop">
+ <summary>
+ Gets or sets the color of the gradient of the background at the top
+ </summary>
+</member>
+<member name="P:System.Windows.Forms.Metro.IStatusBar.BackgroundBottom">
+ <summary>
+ Gets or sets the color of the gradient of the background at the bottom
+ </summary>
+</member>
+<member name="P:System.Windows.Forms.Metro.IStatusBar.BackgroundBlend">
+ <summary>
+ Gets or sets the blending that will apply to the background
+ </summary>
+</member>
+<member name="P:System.Windows.Forms.Metro.IStatusBar.BackgroundAngle">
+ <summary>
+ Gets or sets the angle which the background gradient will be drawn
+ </summary>
+</member>
+<member name="P:System.Windows.Forms.Metro.IStatusBar.DarkBorder">
+ <summary>
+ Gets or sets the color of the dark border
+ </summary>
+</member>
+<member name="P:System.Windows.Forms.Metro.IStatusBar.LightBorder">
+ <summary>
+ Gets or sets the color of the light border
+ </summary>
+</member>
+<member name="P:System.Windows.Forms.Metro.IStatusBar.GripTop">
+ <summary>
+ Gets or sets the color of the grip at the top-most
+ </summary>
+</member>
+<member name="P:System.Windows.Forms.Metro.IStatusBar.GripBottom">
+ <summary>
+ Gets or sets the color of the grip at the bottom-most
+ </summary>
+</member>
+<member name="P:System.Windows.Forms.Metro.IStatusBar.GripSpacing">
+ <summary>
+ Gets or sets the spacing of the grip blocks
+ </summary>
+</member>
+<member name="M:System.Windows.Forms.Metro.IStatusBar.Apply(System.Windows.Forms.Metro.IStatusBar)">
+ <summary>
+ Imports the settings from a previous or pre-defined IStatusBar and applies it to the current
+ </summary>
+ <param name="Import">The IStatusBar to import the settings from</param>
+</member>
+<member name="M:System.Windows.Forms.Metro.IStatusBar.DefaultBlending">
+ <summary>
+ Sets the blending for both border and background to their defaults
+ </summary>
+</member>
+<member name="T:System.Windows.Forms.Metro.IMenustrip">
+ <summary>
+ A class designed to be used in the Renderer master control to customize the look and feel of the base Menustrip
+ </summary>
+</member>
+<member name="M:System.Windows.Forms.Metro.IMenustrip.#ctor">
+ <summary>
+ Creates a new IToolstrip class for customization
+ </summary>
+</member>
+<member name="M:System.Windows.Forms.Metro.IMenustrip.#ctor(System.Windows.Forms.Metro.IMenustrip)">
+ <summary>
+ Creates a new IMenustrip class for customization
+ </summary>
+ <param name="Import">The IMenustrip to import the settings from</param>
+</member>
+<member name="M:System.Windows.Forms.Metro.IMenustrip.Dispose">
+ <summary>
+ Disposes of the IMenustrip class and clears all resources related to it
+ </summary>
+</member>
+<member name="P:System.Windows.Forms.Metro.IMenustrip.MenuBorderDark">
+ <summary>
+ Gets or sets the color of the menu-strip border (dark)
+ </summary>
+</member>
+<member name="P:System.Windows.Forms.Metro.IMenustrip.MenuBorderLight">
+ <summary>
+ Gets or sets the color of the menu-strip border (light)
+ </summary>
+</member>
+<member name="P:System.Windows.Forms.Metro.IMenustrip.BackgroundInheritence">
+ <summary>
+ Gets or sets how the background of the menu-strip is inherited
+ </summary>
+</member>
+<member name="P:System.Windows.Forms.Metro.IMenustrip.BackgroundTop">
+ <summary>
+ If inheritence is set to none, the color of the background gradient at the top
+ </summary>
+</member>
+<member name="P:System.Windows.Forms.Metro.IMenustrip.BackgroundBottom">
+ <summary>
+ If inheritence is set to none, the color of the background gradient at the bottom
+ </summary>
+</member>
+<member name="P:System.Windows.Forms.Metro.IMenustrip.BackgroundBlend">
+ <summary>
+ If inheritence is set to none, the blending option for the background
+ </summary>
+</member>
+<member name="P:System.Windows.Forms.Metro.IMenustrip.MarginLeft">
+ <summary>
+ Gets or sets the color of the margin gradient at the left
+ </summary>
+</member>
+<member name="P:System.Windows.Forms.Metro.IMenustrip.MarginRight">
+ <summary>
+ Gets or sets the color of the margin gradient at the right
+ </summary>
+</member>
+<member name="P:System.Windows.Forms.Metro.IMenustrip.MarginBorder">
+ <summary>
+ Gets or sets the color of the margin border (displayed to the right)
+ </summary>
+</member>
+<member name="P:System.Windows.Forms.Metro.IMenustrip.MenustripButtonBackground">
+ <summary>
+ Gets or sets the color of the root menu-strip button background when it is selected
+ </summary>
+</member>
+<member name="P:System.Windows.Forms.Metro.IMenustrip.MenustripButtonBorder">
+ <summary>
+ Gets or sets the color of the root menu-strip button border when it is selected
+ </summary>
+</member>
+<member name="P:System.Windows.Forms.Metro.IMenustrip.SeperatorDark">
+ <summary>
+ Gets or sets the color of the seperator dark color
+ </summary>
+</member>
+<member name="P:System.Windows.Forms.Metro.IMenustrip.SeperatorLight">
+ <summary>
+ Gets or sets the color of the seperator light color
+ </summary>
+</member>
+<member name="P:System.Windows.Forms.Metro.IMenustrip.SeperatorInset">
+ <summary>
+ Gets or sets the inset position of the seperator from the left
+ </summary>
+</member>
+<member name="P:System.Windows.Forms.Metro.IMenustrip.Items">
+ <summary>
+ Gets the class that handles the look and feel of the menu-strip items
+ </summary>
+</member>
+<member name="M:System.Windows.Forms.Metro.IMenustrip.Apply(System.Windows.Forms.Metro.IMenustrip)">
+ <summary>
+ Imports the settings from a previous or pre-defined IMenustrip and applies it to the current
+ </summary>
+ <param name="Import">The IMenustrip to import the settings from</param>
+</member>
+<member name="M:System.Windows.Forms.Metro.IMenustrip.DefaultBlending">
+ <summary>
+ Sets the blending for the background to it's default
+ </summary>
+</member>
+<member name="T:System.Windows.Forms.Metro.ArrowDisplay">
+ <summary>
+ Defines when to show an arrow
+ </summary>
+</member>
+<member name="T:System.Windows.Forms.Metro.BlendRender">
+ <summary>
+ Defines when to use a blend property
+ </summary>
+</member>
+<member name="F:System.Windows.Forms.Metro.BlendRender.Normal">
+ <summary>
+ Use the blend when the object is drawn
+ </summary>
+</member>
+<member name="F:System.Windows.Forms.Metro.BlendRender.Hover">
+ <summary>
+ Use the blend when the object is hovered over
+ </summary>
+</member>
+<member name="F:System.Windows.Forms.Metro.BlendRender.Click">
+ <summary>
+ Use the blend when the object is clicked
+ </summary>
+</member>
+<member name="F:System.Windows.Forms.Metro.BlendRender.Check">
+ <summary>
+ Use the blend when the object is checked
+ </summary>
+</member>
+<member name="F:System.Windows.Forms.Metro.BlendRender.All">
+ <summary>
+ Always use the blend regardless of the state of the object
+ </summary>
+</member>
+<member name="T:System.Windows.Forms.Metro.GripType">
+ <summary>
+ Defines a method of drawing a grip on a control
+ </summary>
+</member>
+<member name="F:System.Windows.Forms.Metro.GripType.Dotted">
+ <summary>
+ Draws the grip as a set of dots
+ </summary>
+</member>
+<member name="F:System.Windows.Forms.Metro.GripType.Lines">
+ <summary>
+ Draws the grip as two lines
+ </summary>
+</member>
+<member name="F:System.Windows.Forms.Metro.GripType.None">
+ <summary>
+ Does not draw the grip at all, but the object remains moveable
+ </summary>
+</member>
+<member name="T:System.Windows.Forms.Metro.ButtonType">
+ <summary>
+ Defines a specific type of button to search by
+ </summary>
+</member>
+<member name="T:System.Windows.Forms.Metro.InheritenceType">
+ <summary>
+ Defines a method for background or object inheritence
+ </summary>
+</member>
+<member name="T:System.Windows.Forms.Metro.RenderingMode">
+ <summary>
+ Defines a method of rendering
+ </summary>
+</member>
+<member name="M:System.Windows.Forms.Extras.CueProviderActions.SetCue(System.Windows.Forms.TextBox,System.String)">
+ <summary>
+ Sets a text box's cue text.
+ </summary>
+ <param name="textBox">The text box.</param>
+ <param name="cue">The cue text.</param>
+</member>
+<member name="M:System.Windows.Forms.Extras.CueProviderActions.ClearCue(System.Windows.Forms.TextBox)">
+ <summary>
+ Clears a text box's cue text.
+ </summary>
+ <param name="textBox">The text box</param>
+</member>
+</members>
+</doc>

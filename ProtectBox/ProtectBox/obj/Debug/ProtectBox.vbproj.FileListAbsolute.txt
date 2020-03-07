@@ -1,0 +1,17 @@
+c:\users\ze\documents\visual studio 2015\Projects\ProtectBox\ProtectBox\bin\Debug\ProtectBox.exe.config
+c:\users\ze\documents\visual studio 2015\Projects\ProtectBox\ProtectBox\bin\Debug\ProtectBox.exe
+c:\users\ze\documents\visual studio 2015\Projects\ProtectBox\ProtectBox\bin\Debug\ProtectBox.pdb
+c:\users\ze\documents\visual studio 2015\Projects\ProtectBox\ProtectBox\bin\Debug\ProtectBox.xml
+c:\users\ze\documents\visual studio 2015\Projects\ProtectBox\ProtectBox\obj\Debug\ProtectBox.vbprojResolveAssemblyReference.cache
+c:\users\ze\documents\visual studio 2015\Projects\ProtectBox\ProtectBox\obj\Debug\ProtectBox.Form1.resources
+c:\users\ze\documents\visual studio 2015\Projects\ProtectBox\ProtectBox\obj\Debug\ProtectBox.Resources.resources
+c:\users\ze\documents\visual studio 2015\Projects\ProtectBox\ProtectBox\obj\Debug\ProtectBox.vbproj.GenerateResource.Cache
+c:\users\ze\documents\visual studio 2015\Projects\ProtectBox\ProtectBox\obj\Debug\ProtectBox.exe
+c:\users\ze\documents\visual studio 2015\Projects\ProtectBox\ProtectBox\obj\Debug\ProtectBox.xml
+c:\users\ze\documents\visual studio 2015\Projects\ProtectBox\ProtectBox\obj\Debug\ProtectBox.pdb
+c:\users\ze\documents\visual studio 2015\Projects\ProtectBox\ProtectBox\bin\Debug\WindowsFormsMetro.dll
+c:\users\ze\documents\visual studio 2015\Projects\ProtectBox\ProtectBox\bin\Debug\LinqBridge.dll
+c:\users\ze\documents\visual studio 2015\Projects\ProtectBox\ProtectBox\bin\Debug\WindowsFormsMetro.pdb
+c:\users\ze\documents\visual studio 2015\Projects\ProtectBox\ProtectBox\bin\Debug\WindowsFormsMetro.xml
+c:\users\ze\documents\visual studio 2015\Projects\ProtectBox\ProtectBox\bin\Debug\es\WindowsFormsMetro.resources.dll
+C:\Users\ze\documents\visual studio 2015\Projects\ProtectBox\ProtectBox\bin\Debug\GlassButton.dll
