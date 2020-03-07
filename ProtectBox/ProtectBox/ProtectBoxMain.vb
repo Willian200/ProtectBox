@@ -420,9 +420,7 @@ Public Class ProtectBoxMain
         End If
     End Sub
 
-    Private Sub btnDestinoDecrypt_Click(sender As Object, e As EventArgs) Handles btnDestinoDecrypt.Click
 
-    End Sub
 
 
 

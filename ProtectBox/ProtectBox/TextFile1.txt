@@ -1,0 +1,2 @@
+﻿06-03-2020 - Criado design , projeto no github , interface gráfica , Algoritmo de encriptação de arquivos
+07-03-2020 - criado interface gráfica da encriptação de pastas e automatização.
